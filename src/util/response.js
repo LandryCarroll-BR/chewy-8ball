@@ -6,9 +6,9 @@ const Response = ({ number }) => {
     case 2:
       return <p className="chewy-response">Maybe not that.</p>;
     case 3:
-      return <p className="chewy-response">Getting tired.</p>;
+      return <p className="chewy-response">Getting tired. Maybe later.</p>;
     case 4:
-      return <p className="chewy-response">Seriously?</p>;
+      return <p className="chewy-response">Seriously? nooooooo</p>;
     case 5:
       return <p className="chewy-response">But why?</p>;
     case 6:
@@ -32,15 +32,15 @@ const Response = ({ number }) => {
     case 15:
       return <p className="chewy-response">Not bad.</p>;
     case 16:
-      return <p className="chewy-response">That is a good point.</p>;
+      return <p className="chewy-response">Ya know</p>;
     case 17:
-      return <p className="chewy-response">Lol I am </p>;
+      return <p className="chewy-response">*Chewy laughs*</p>;
     case 18:
       return <p className="chewy-response">Big brain.</p>;
     case 19:
       return <p className="chewy-response">I meannnn</p>;
     case 20:
-      return <p className="chewy-response">Good.</p>;
+      return <p className="chewy-response">lol nice.</p>;
     case 21:
       return (
         <p className="chewy-response">
@@ -52,7 +52,7 @@ const Response = ({ number }) => {
     case 23:
       return <p className="chewy-response">Seriously man?</p>;
     case 24:
-      return <p className="chewy-response">Oh?</p>;
+      return <p className="chewy-response">Thats sketchy.</p>;
     case 25:
       return <p className="chewy-response">hmmmm...</p>;
     case 26:

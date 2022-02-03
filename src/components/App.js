@@ -4,19 +4,21 @@ import Chewy from "../util/chewy";
 import Response from "../util/response";
 
 function App() {
-  const [index, setIndex] = useState(1);
+  const [chewy, setChewy] = useState(1);
+  const [response, setResponse] = useState(1);
 
   const getRandomNum = () => Math.floor(Math.random() * 31);
   const getRandomChewy = () => {
-    setTimeout;
-    setIndex(getRandomNum);
+    const num = getRandomNum();
+    setChewy(num);
+    setTimeout(() => setResponse(num), 500);
   };
 
   return (
     <div className="app">
       <h1 className="title">Ask Chewy</h1>
-      <Chewy number={index} />
-      <Response number={index} />
+      <Chewy number={chewy} />
+      <Response number={response} />
       <button className="button" onClick={getRandomChewy}>
         Chewy&#x27;s Response
       </button>
