@@ -11,7 +11,7 @@ function App() {
   const getRandomChewy = () => {
     const num = getRandomNum();
     setChewy(num);
-    setTimeout(() => setResponse(num), 500);
+    setTimeout(() => setResponse(num), 200);
   };
 
   return (
